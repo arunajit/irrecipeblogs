@@ -59,12 +59,13 @@ Due to the unavailability of the information on whether the recipe was relevant 
 method of relevance marking was done. Due to this factor, other metrics like recall were not
 computed.<br>
 
-## Requirements 
-beautifulsoup4==4.7.1
-fuzzywuzzy==0.18.0
-matplotlib==3.4.2
-numpy==1.19.1
-pandas==1.2.0
-requests==2.22.0
-scikit-learn==0.23.1
-scipy==1.5.4
+## Requirements  <br>
+beautifulsoup4==4.7.1 <br>
+fuzzywuzzy==0.18.0 <br>
+matplotlib==3.4.2 <br>
+numpy==1.19.1 <br>
+pandas==1.2.0 <br>
+requests==2.22.0 <br>
+scikit-learn==0.23.1 <br>
+scipy==1.5.4 <br>
+ <br>
