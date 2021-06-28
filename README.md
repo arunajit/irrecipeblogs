@@ -31,10 +31,10 @@ two strings the matching is done – Used four different approaches here, <br>
 
 ## Phase 3 <br>
 
-In phase 3, using the preprocessed data, clustering and recommendation of similar recipes has
-been done. The recommendations have been evaluated through some metrics.
-The clustering technique was inspired from the paper ‘Hierarchical Clustering for Collaborative
-Filtering Recommender Systems’ Chalco.et.al<br>
+In phase 3, using the preprocessed data, clustering and recommendation of similar recipes is done.
+The recommendations have been evaluated through some metrics.
+The clustering technique was inspired from the paper [‘Hierarchical Clustering for Collaborative
+Filtering Recommender Systems’ Chalco.et.al](https://doi.org/10.1007/978-3-319-94229-2_34)<br>
 
 For the Agglomerative Clustering of the data, the data was vectorised and Agglomerative
 clustering was done with the number of clusters ranging between 2 and 10.<br>
@@ -58,3 +58,13 @@ precision at k was computed for the given query.<br>
 Due to the unavailability of the information on whether the recipe was relevant or not, the above
 method of relevance marking was done. Due to this factor, other metrics like recall were not
 computed.<br>
+
+## Requirements 
+beautifulsoup4==4.7.1
+fuzzywuzzy==0.18.0
+matplotlib==3.4.2
+numpy==1.19.1
+pandas==1.2.0
+requests==2.22.0
+scikit-learn==0.23.1
+scipy==1.5.4
