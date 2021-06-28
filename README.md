@@ -14,13 +14,13 @@ ingredients and the rating and cooking time gets prominence.
 ## Phase 1 & 2 <br>
 After the extracting, cleaning, filtering and transformation phases the data is ready for 
 further procedures. Here for ranking and querying we have used three different approaches.<br>
-1) Cosine Similarity
+1) Cosine Similarity <br>
 Plain old cosine similarity approach to find the matching strings (title) and 
 output the top – 10.<br>
-2) Enumerated Index based String matching
+2) Enumerated Index based String matching <br>
 Enumerated string lists is taken and index-based string matching is done to 
 display the results<br>
-3) Fuzzy String Matching
+3) Fuzzy String Matching <br>
 Using fuzzywuzzy library the matching is done via approximation, 
 Levenshtein distance the basic metric used here, calculated in ratios between 
 two strings the matching is done – Used four different approaches here, <br>
