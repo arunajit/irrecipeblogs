@@ -1,5 +1,5 @@
 <h1> Information Retrieval Package on Recipe Blogs </h1>
-Information Retrieval on Recipe Blogs
+Information Retrieval - Recipe Blog
 <br>
   
 ## Intention <br>
