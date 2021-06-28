@@ -1,7 +1,8 @@
-## Information Retrieval Package on Recipe Blogs
+<h1> Information Retrieval Package on Recipe Blogs </h1>
 Information Retrieval on Recipe Blogs
 <br>
-# Intention:<br>
+  
+## Intention <br>
 With the easy availability of the internet and the latest interest of people to prepare 
 their favourite food, Food Blogs have become a thing of relevance today. From searching for 
 one pot meals to innovative 5 star entrees, from easy snacks to the very traditional regional 
@@ -9,7 +10,8 @@ dishes, people have started to search for recipes specifically, or with certain 
 the ingredients that are readily available. Thus retrieval of the most relevant recipes by 
 ingredients and the rating and cooking time gets prominence.
 <br>
-# Phase 1 & 2 <br>
+
+## Phase 1 & 2 <br>
 After the extracting, cleaning, filtering and transformation phases the data is ready for 
 further procedures. Here for ranking and querying we have used three different approaches.<br>
 1) Cosine Similarity
@@ -21,13 +23,13 @@ display the results<br>
 3) Fuzzy String Matching
 Using fuzzywuzzy library the matching is done via approximation, 
 Levenshtein distance the basic metric used here, calculated in ratios between 
-two strings the matching is done – Used four different approaches here,
-  a) W Ratio
-  b) Partial Ratio
-  c) Token Sort Ratio
-  d) Token Set ratio
-<br>
-# Phase 3 <br>
+two strings the matching is done – Used four different approaches here, <br>
+  a) W Ratio <br>
+  b) Partial Ratio <br>
+  c) Token Sort Ratio <br>
+  d) Token Set ratio <br>
+
+## Phase 3 <br>
 
 In phase 3, using the preprocessed data, clustering and recommendation of similar recipes has
 been done. The recommendations have been evaluated through some metrics.
